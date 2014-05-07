@@ -70,6 +70,13 @@ if (!isDedicated) then {
 
 //Start Dynamic Weather
 execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
+//
+
+[] execVM "admintools\AdminList.sqf";
+if ( !((getPlayerUID player) in AdminList) && !((getPlayerUID player) in ModList) && !((getPlayerUID player) in tempList)) then 
+{
+    [] execVM "\z\addons\dayz_code\system\antihack.sqf";
+};
 
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
@@ -85,3 +92,5 @@ if (dayzPlayerLogin2 select 2) then
 };
 
 [] execVM "ActionMenu\actionmenu_activate.sqf";
+
+[] execVM "admintools\Activate.sqf";
