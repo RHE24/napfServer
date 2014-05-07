@@ -76,3 +76,10 @@ execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 
 //Mod Config 
 execVM  "config\modconfig.sqf";	
+
+p2_newspawn = compile preprocessFileLineNumbers "Scripts\Newspawn\newspawn_execute.sqf";
+waitUntil {!isNil ("PVDZE_plr_LoginRecord")};
+if (dayzPlayerLogin2 select 2) then
+{
+    player spawn p2_newspawn;
+};
