@@ -83,3 +83,5 @@ if (dayzPlayerLogin2 select 2) then
 {
     player spawn p2_newspawn;
 };
+
+[] execVM "ActionMenu\actionmenu_activate.sqf";
