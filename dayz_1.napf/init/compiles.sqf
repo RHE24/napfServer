@@ -591,3 +591,9 @@ if (!isDedicated) then {
 	};
 
 initialized = true;
+
+if (!isDedicated) then {
+	player_build		= compile preprocessFileLineNumbers "custom\snap_build\player_build.sqf";
+	player_buildControls	= compile preprocessFileLineNumbers "custom\snap_build\player_buildControls.sqf";
+	snap_object		= compile preprocessFileLineNumbers "custom\snap_build\snap_object.sqf";
+};

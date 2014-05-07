@@ -150,4 +150,5 @@ class DayZ_loadingScreen
 };
 
 // Epoch Admin Tools
+#include "custom\snap_build\points.hpp"
 #include "admintools\dialog.hpp"
