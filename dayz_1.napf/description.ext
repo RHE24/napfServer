@@ -152,7 +152,6 @@ class DayZ_loadingScreen
 // Epoch Admin Tools
 #include "admintools\dialog.hpp"
 #include "custom\snap_build\points.hpp"
-#include "admintools\dialog.hpp"
 
 // DayZ Watermark
 class RscTitles {
