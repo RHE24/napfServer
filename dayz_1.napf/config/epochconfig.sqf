@@ -91,7 +91,7 @@ MaxMineVeins = 50;
 DZE_HeliLift = true;
 
 //Enables Player to Spawn as Zombie after being killed by them
-DZE_PlayerZed = true;
+DZE_PlayerZed = false;
 
 // (Default: 25)
 DZE_HumanityTargetDistance = 25;
@@ -100,7 +100,7 @@ DZE_HumanityTargetDistance = 25;
 DZE_FriendlySaving = true;
 
 //If True will allow building on roads
-DZE_BuildOnRoads = false;
+DZE_BuildOnRoads = true;
 
 // Custom Mission Loot Table (Default: false)
 DZE_MissionLootTable = false;
@@ -112,7 +112,7 @@ DZE_LootSpawnTimer = 10;
 DZE_BackpackGuard = true; //Default = true, true to enable, false to disable
 
 //Change the number of constructed objects within range of a 30m Plot Pole. (default=150). Be very carefull with this number, as setting it too high will cause a huge amount of local lag**
-DZE_BuildingLimit = 150; 
+DZE_BuildingLimit = 500; 
 
 //Non destructable bases
 DZE_GodModeBase = true;
