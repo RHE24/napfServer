@@ -105,3 +105,5 @@ waituntil {!(isNull (findDisplay 46))};
 ((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
 };
 };
+
+[] execvm 'SDS\sds_SafeZoneCommander.sqf';
