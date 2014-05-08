@@ -150,6 +150,7 @@ class DayZ_loadingScreen
 };
 
 // Epoch Admin Tools
+<<<<<<< HEAD
 #include "admintools\dialog.hpp"
 
 // DayZ Watermark
@@ -188,3 +189,7 @@ text="";
 };
 };
 };
+=======
+#include "custom\snap_build\points.hpp"
+#include "admintools\dialog.hpp"
+>>>>>>> 082aace0e2908d5075be90058656ee1b62a1af8e
