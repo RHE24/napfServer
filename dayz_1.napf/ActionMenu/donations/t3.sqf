@@ -4,9 +4,10 @@ _crate setVariable ["Mission",1,true];
 clearWeaponCargoGlobal _crate;
 clearMagazineCargoGlobal _crate;
 
-_crate addMagazineCargoGlobal ["ItemVault", 3];
-_crate addMagazineCargoGlobal ["workbench_kit", 1];
-_crate addMagazineCargoGlobal ["ItemComboLock", 2];
+_crate addMagazineCargoGlobal ["ItemVault", 4];
+_crate addMagazineCargoGlobal ["workbench_kit", 4];
+_crate addMagazineCargoGlobal ["ItemComboLock", 4];
+_crate addMagazineCargoGlobal ["ItemTent", 6];
 
 _crate addMagazineCargoGlobal ["metal_floor_kit", 120];
 _crate addMagazineCargoGlobal ["cinder_garage_kit", 6];
@@ -16,10 +17,13 @@ _crate addMagazineCargoGlobal ["MortarBucket", 480];
 _crate addMagazineCargoGlobal ["sandbag_nest_kit", 2];
 _crate addMagazineCargoGlobal ["forest_large_net_kit", 3];
 _crate addMagazineCargoGlobal ["ItemWoodStairs", 4];
-_crate addMagazineCargoGlobal ["ItemWoodStairsSupport", 1];
-_crate addMagazineCargoGlobal ["ItemWoodLadder", 5];
+_crate addMagazineCargoGlobal ["ItemWoodStairsSupport", 6];
+_crate addMagazineCargoGlobal ["ItemWoodLadder", 6];
 _crate addMagazineCargoGlobal ["ItemPole", 6];
 _crate addMagazineCargoGlobal ["ItemTankTrap", 6];
+_crate addMagazineCargoGlobal ["ItemSandbag", 180];
+_crate addMagazineCargoGlobal ["30m_plot_kit", 6];
+
 
 _crate attachto [player, [0,3,1.7]];
 sleep 5;
