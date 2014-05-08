@@ -11,6 +11,7 @@ dayZ_instance =	24;				//The instance
 dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
+server_name = "Shadow Squad";
 
 //disable greeting menu 
 player setVariable ["BIS_noCoreConversations", true];
@@ -94,3 +95,13 @@ if (dayzPlayerLogin2 select 2) then
 [] execVM "ActionMenu\actionmenu_activate.sqf";
 
 [] execVM "admintools\Activate.sqf";
+
+//DayZ Watermark
+if (!isNil "server_name") then {
+[] spawn {
+waitUntil {(!isNull Player) and (alive Player) and (player == player)};
+waituntil {!(isNull (findDisplay 46))};
+5 cutRsc ["wm_disp","PLAIN"];
+((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
+};
+};
