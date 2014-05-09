@@ -1,0 +1,52 @@
+Please use Notepad++
+
+
+
+
+
+
+
+
+How to install J0k3r5 Stats Panel
+
+1. Copy + Paste the 'Stats' into your mission root folder.
+2. Locate your 'init.sqf' in your mission folder
+3. Put this code at the very bottom of the file
+
+
+if (!isDedicated) then {[] execVM "Stats\j0k3r5_stats.sqf"};
+
+
+
+
+
+
+
+
+
+
+
+How to change the countdown timer, to server restart.
+
+
+1. goto line 92
+2. change the 180 to what suits your needs.
+for example, 180 = 3hr / 120 = 2hrs
+
+3. finished
+
+
+
+
+
+
+
+
+
+
+
+How to change the Message 1 + Message 2
+
+1. goto line 59 + 60
+2. replace the text with yours.
+3. finished
