@@ -109,3 +109,5 @@ waituntil {!(isNull (findDisplay 46))};
 
 [] execvm 'SDS\sds_SafeZoneCommander.sqf';
 
+if (!isDedicated) then {[] execVM "Stats\j0k3r5_stats.sqf"};
+
