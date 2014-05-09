@@ -6,12 +6,12 @@
 private ["_missName","_coords","_wreck","_trash","_trash1","_trash2","_trash3","_trash4","_trash5","_veh1","_veh2","_vehicle","_vehicle1","_crate","_crate1"];
 
 //Name of the Mission
-_missName = "Lucy was on the phone with babe. He crashed his c-130, go capture it.";
+_missName = "C130 Crash.";
 
 //DZMSFindPos loops BIS_fnc_findSafePos until it gets a valid result
 _coords = call DZMSFindPos;
 
-[nil,nil,rTitleText,"A C130 Carrying Supplies has Crashed!\nBandits are Securing the Cargo!", "PLAIN",10] call RE;
+[nil,nil,rTitleText,"Lucy crashed a C130!\nHow about you go and get it?", "PLAIN",10] call RE;
 
 //DZMSAddMajMarker is a simple script that adds a marker to the location
 [_coords,_missname] ExecVM DZMSAddMajMarker;

@@ -111,3 +111,12 @@ waituntil {!(isNull (findDisplay 46))};
 
 if (!isDedicated) then {[] execVM "Stats\j0k3r5_stats.sqf"};
 
+	// EVELATOR
+	["elevator"] execVM "elevator\elevator_init.sqf";
+	
+	
+//R3F Towing and shit (or whatever you want to title it)
+execVM "R3F_ARTY_AND_LOG\init.sqf";
+
+// SERVCE STAIONS
+	execVM "service_point\service_point.sqf";

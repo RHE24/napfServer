@@ -6,12 +6,12 @@
 private ["_missName","_coords","_net","_veh1","_veh2","_vehicle","_vehicle1","_crate"];
 
 //Name of the Mission
-_missName = "Sweets broke his legs again. Go kill the bandits protecting him.";
+_missName = "Bandit Protection";
 
 //DZMSFindPos loops BIS_fnc_findSafePos until it gets a valid result
 _coords = call DZMSFindPos;
 
-[nil,nil,rTitleText,"Bandits have Taken Over a Survivor Medical Cache!", "PLAIN",10] call RE;
+[nil,nil,rTitleText,"Sweets broke his legs again.\nGo kill the bandits protecting him.", "PLAIN",10] call RE;
 
 //DZMSAddMajMarker is a simple script that adds a marker to the location
 [_coords,_missname] ExecVM DZMSAddMajMarker;

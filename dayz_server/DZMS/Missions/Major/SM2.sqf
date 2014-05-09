@@ -6,12 +6,12 @@
 private ["_missName","_coords","_plane","_aiGrp","_pilot","_wp","_wp_pos","_loop","_half","_newPos","_plane2","_chute","_box","_dropDir","_wp2","_fallCount","_boxFin"];
 
 //Name of the Mission
-_missName = "Dave keeps asking for supplies, help him capture the supplies.";
+_missName = "AN-2 w/ Supplies";
 
 //DZMSFindPos loops BIS_fnc_findSafePos until it gets a valid result
 _coords = call DZMSFindPos;
 
-[nil,nil,rTitleText,"An AN-2 with Bandit Supplies is Flying In!\nGet to the Location and Capture the Package!", "PLAIN",10] call RE;
+[nil,nil,rTitleText,"Dave is flying in with an AN-2.\nCapture him and take his things!", "PLAIN",10] call RE;
 
 //DZMSAddMajMarker is a simple script that adds a marker to the location
 [_coords,_missname] ExecVM DZMSAddMajMarker;
