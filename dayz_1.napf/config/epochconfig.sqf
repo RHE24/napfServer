@@ -118,4 +118,10 @@ DZE_BuildingLimit = 500;
 DZE_GodModeBase = true;
 
 //DZE_requireplot override variable added
-DZE_requireplot = 1; 
+DZE_requireplot = 1;
+
+//Attempting to take off weight limitation 
+DZE_R3F_WEIGHT = false; 
+
+//Second code testing to see if weight is off
+DZE_WEIGHT = false;

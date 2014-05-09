@@ -107,3 +107,4 @@ waituntil {!(isNull (findDisplay 46))};
 };
 
 [] execvm 'SDS\sds_SafeZoneCommander.sqf';
+
