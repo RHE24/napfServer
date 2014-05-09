@@ -38,7 +38,7 @@ _onScreenTime = 6; 		//how long one role should stay on screen. Use value from 0
 //	SCRIPT START
  
 waitUntil {!isNil "dayz_animalCheck"};
-sleep 10; //Wait in seconds before the credits start after player IS ingame
+sleep 6; //Wait in seconds before the credits start after player IS ingame
  
 _role1 = "Welcome to";
 _role1names = ["Shadow Enterprise"];
@@ -77,8 +77,5 @@ _role6names = ["@MrSweetDick16", "@LucidAnonymity"];
 	[_role3, _role3names],
 	[_role4, _role4names],
 	[_role5, _role5names],
-	[_role6, _role6names],
-	[_role7, _role7names],
-	[_role8, _role8names],
-	[_role9, _role9names]			//make SURE the last one here does NOT have a , at the end
+	[_role6, _role6names] 			//make SURE the last one here does NOT have a , at the end
 ];
